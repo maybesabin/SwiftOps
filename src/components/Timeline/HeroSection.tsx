@@ -2,7 +2,7 @@ import CustomTimeline from "./Timeline"
 
 const HeroSection = () => {
     return (
-        <div className="md:py-[7rem] py-12 px-6 w-full dark:bg-[#111214] bg-white dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative flex flex-col items-center gap-6 justify-center">
+        <div className="md:py-[7rem] py-12 -mt-1 px-6 w-full dark:bg-[#111214] bg-white dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative flex flex-col items-center gap-6 justify-center">
 
             {/* Background  */}
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-[#111214] bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>

@@ -105,7 +105,7 @@ const HeroSection = () => {
                         <img
                             src={logo}
                             key={idx}
-                            className="xl:mx-12 md:mx-8 mx-4 xl:w-[120px] md:w-[100px] w-[60px] cursor-pointer brightness-75 hover:brightness-100 transition-all"
+                            className="xl:mx-12 md:mx-8 mx-4 xl:w-[120px] lg:w-[100px] w-[60px] cursor-pointer brightness-75 hover:brightness-100 transition-all"
                             alt=""
                         />
                     ))}

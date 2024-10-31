@@ -31,7 +31,7 @@ const Timeline = () => {
             </div>
             <div className="flex flex-col items-start gap-2 w-[22.5rem] md:px-0 px-12 md:h-96 h-72 relative z-[2]">
                 <h3 className="md:text-xl text-xs text-[#676767]">Dec - 01</h3>
-                <h1 className="md:text-6xl text-3xl tracking-wide bg-clip-text text-transparent lg:bg-gradient-to-r bg-gradient-to-tl from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">2023</h1>
+                <h1 className="md:text-6xl text-3xl tracking-wide bg-clip-text text-transparent lg:bg-gradient-to-b bg-gradient-to-tl from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">2023</h1>
                 <div className="flex items-center gap-4">
                     <div className="flex items-end gap-6">
                         <div className="flex flex-col items-center ml-6">
@@ -54,7 +54,7 @@ const Timeline = () => {
             </div>
             <div className="flex flex-col items-start gap-2 w-[22.5rem] md:px-0 px-12 md:h-96 h-72 relative z-[2]">
                 <h3 className="md:text-xl text-xs text-[#676767] ">Apr - 20</h3>
-                <h1 className="md:text-6xl text-3xl tracking-wide bg-clip-text text-transparent lg:bg-gradient-to-r bg-gradient-to-tl from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">2022</h1>
+                <h1 className="md:text-6xl text-3xl tracking-wide bg-clip-text text-transparent lg:bg-gradient-to-l bg-gradient-to-tl from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">2022</h1>
                 <div className="flex items-center gap-4">
                     <div className="flex items-end gap-6">
                         <div className="flex flex-col items-center ml-6">

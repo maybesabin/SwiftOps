@@ -61,7 +61,21 @@ export default {
 					'4': 'hsl(var(--chart-4))',
 					'5': 'hsl(var(--chart-5))'
 				}
-			}
+			},
+			keyframes: {
+				dropdown: {
+					'0%': { transform: 'translateY(-100px)', opacity: '0' },
+					'100%': { transform: 'translateY(0)', opacity: '1' },
+				},
+				fadeout: {
+					'0%': { opacity: '1', transform: 'translateY(0)' },
+					'100%': { opacity: '0', transform: 'translateY(-20px)' },
+				},
+			},
+			animation: {
+				dropdown: 'dropdown 0.5s ease-out forwards',
+				fadeout: 'fadeout 0.5s ease-out forwards',
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate"),
