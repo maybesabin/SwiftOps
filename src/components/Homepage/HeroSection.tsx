@@ -95,7 +95,7 @@ const HeroSection = () => {
                 </div>
             </div>
 
-            <div className="mt-12 xl:w-[80rem] w-full dark:flex hidden items-center justify-center max-w-full bg-[#111214] md:h-20 h-10 overflow-x-hidden">
+            <div className="md:mt-12 xl:w-[80rem] w-full dark:flex hidden items-center justify-center max-w-full bg-[#111214] md:h-20 h-10 overflow-x-hidden">
                 <Marquee
                     pauseOnHover={true}
                     gradient={true}
