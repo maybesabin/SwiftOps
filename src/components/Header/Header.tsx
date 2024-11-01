@@ -1,6 +1,6 @@
-import logo from "../assets/images/logo.png";
-import { ModeToggle } from "./mode-toggle";
-import logoDark from "../assets/images/logo-dark.png";
+import logo from "../../assets/images/logo.png";
+import { ModeToggle } from "../Theme Providers/mode-toggle";
+import logoDark from "../../assets/images/logo-dark.png";
 import { useState } from "react";
 
 const Header = () => {
@@ -27,11 +27,11 @@ const Header = () => {
                     <h1 className="text-[1rem]">SwiftOps</h1>
                 </div>
                 <ul className="lg:flex hidden items-center gap-9">
-                    <li className="cursor-pointer hover:text-zinc-300 transition-all">Company</li>
-                    <li className="cursor-pointer hover:text-zinc-300 transition-all">Download</li>
-                    <li className="cursor-pointer hover:text-zinc-300 transition-all">Customers</li>
-                    <li className="cursor-pointer hover:text-zinc-300 transition-all">Partners</li>
-                    <li className="cursor-pointer hover:text-zinc-300 transition-all">Pricing</li>
+                    <a href="#"><li className="cursor-pointer hover:text-zinc-300 transition-all">Company</li></a>
+                    <a href="#services"><li className="cursor-pointer hover:text-zinc-300 transition-all">Services</li></a>
+                    <a href="#timeline"><li className="cursor-pointer hover:text-zinc-300 transition-all">Journey</li></a>
+                    <a href="#"><li className="cursor-pointer hover:text-zinc-300 transition-all">Partners</li></a>
+                    <a href="#pricing"><li className="cursor-pointer hover:text-zinc-300 transition-all">Pricing</li></a>
                 </ul>
                 <div className="lg:flex hidden items-center gap-4">
                     <ModeToggle />

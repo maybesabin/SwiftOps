@@ -54,11 +54,12 @@ const people = [
     },
     {
         id: 7,
-        name: "Emily Davis",
-        designation: "UX Designer",
+        name: "Michael Thompson",
+        designation: "Frontend Developer",
         image:
-            "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+            "https://plus.unsplash.com/premium_photo-1678197937465-bdbc4ed95815?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
+
 
 ];
 
@@ -80,8 +81,8 @@ const HeroSection = () => {
             <p className="text-center text-zinc-400 md:text-[1rem] text-[0.8rem] leading-6">Replace your old crappy VPN with SwiftOps that's easy to <br />adpot and loved by millions.</p>
 
 
-            <button className="px-8 py-3 rounded-full relative bg-black text-white text-sm hover:shadow-2xl hover:shadow-white/[0.1] transition duration-200 border border-transparent">
-                <div className="absolute inset-x-0 dark:h-[1px] h-1 dark:w-1/2 w-full mx-auto -bottom-px shadow-2xl bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
+            <button className="px-8 py-3 rounded-full relative dark:bg-black bg-[#3b3b3b] text-white text-sm hover:shadow-2xl hover:shadow-white/[0.1] transition duration-200 border border-transparent">
+                <div className="absolute inset-x-0 h-[1px] w-1/2 mx-auto -bottom-px shadow-2xl bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
                 <span className="relative z-20">
                     Try SwiftOps for free
                 </span>
