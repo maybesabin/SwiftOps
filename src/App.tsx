@@ -6,6 +6,7 @@ import HeroSection from "./components/Timeline/HeroSection"
 import Pricing from "./components/Pricing/Pricing"
 import Testimonials from "./components/Testimonials/Testimonials"
 import FAQ from "./components/FAQ/FAQ"
+import GetInTouch from "./components/GetInTouch/GetInTouch"
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Pricing />
         <Testimonials />
         <FAQ />
+        <GetInTouch />
       </ThemeProvider>
     </div>
   )

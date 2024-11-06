@@ -71,8 +71,8 @@ const FAQ = () => {
                         {faqData.map((item, idx) => {
                             return (
                                 <AccordionItem key={idx} value={`item-${idx + 1}`}>
-                                    <AccordionTrigger className="text-left">{item.question}</AccordionTrigger>
-                                    <AccordionContent className="text-left md:text-[1rem] text-[0.65rem]">
+                                    <AccordionTrigger className="text-left text-[1rem]">{item.question}</AccordionTrigger>
+                                    <AccordionContent className="text-left md:text-[0.85rem] text-[0.7rem] dark:text-neutral-400">
                                         {item.answer}
                                     </AccordionContent>
                                 </AccordionItem>
