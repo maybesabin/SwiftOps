@@ -7,6 +7,7 @@ import Pricing from "./components/Pricing/Pricing"
 import Testimonials from "./components/Testimonials/Testimonials"
 import FAQ from "./components/FAQ/FAQ"
 import GetInTouch from "./components/GetInTouch/GetInTouch"
+import Footer from "./components/Footer/Footer"
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Testimonials />
         <FAQ />
         <GetInTouch />
+        <Footer />
       </ThemeProvider>
     </div>
   )
