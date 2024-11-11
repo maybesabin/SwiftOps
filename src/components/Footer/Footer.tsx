@@ -24,7 +24,7 @@ const Footer = () => {
 
 
             <div className="flex items-center justify-center w-full">
-                <div className="xl:w-[80rem] w-full xl:px-0 px-12 flex lg:flex-nowrap flex-wrap lg:gap-0 gap-12 items-start justify-between relative">
+                <div className="xl:w-[80rem] w-full sm:px-12 px-4 flex lg:flex-nowrap flex-wrap lg:gap-0 gap-12 items-start justify-between relative">
 
                     <div className="flex flex-col items-start gap-3">
                         <div className="flex items-center gap-3">

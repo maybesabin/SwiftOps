@@ -58,7 +58,7 @@ const GetInTouch = () => {
 
     ];
     return (
-        <div className="w-full px-9 dark:bg-[#111214] bg-white flex items-center justify-center md:py-[7rem] py-12">
+        <div className="w-full sm:px-12 px-4 dark:bg-[#111214] bg-white flex items-center justify-center md:py-[7rem] py-12">
             <div className="xl:w-[80rem] w-full lg:h-[32rem] bg-gradient-to-br from-[rgb(17,25,44)] to-[#536074] rounded-2xl flex items-center justify-between gap-6">
                 <div className="flex flex-col items-start gap-7 xl:w-1/2 lg:w-2/3 w-full lg:pl-12 px-6 md:py-9 py-6">
                     <img src={logo} width={'40px'} alt="" />
